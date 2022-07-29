@@ -76,7 +76,7 @@
         },
         "textMode": "none"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "datasource": {
@@ -139,7 +139,7 @@
         },
         "showHeader": false
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "datasource": {
@@ -225,7 +225,7 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "datasource": {
@@ -285,7 +285,7 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "datasource": {
@@ -360,7 +360,7 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "expr": "core_scheduler_current_slot",
@@ -428,7 +428,7 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "datasource": {
@@ -819,7 +819,7 @@
         },
         "textMode": "none"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "datasource": {
@@ -901,7 +901,7 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "datasource": {
@@ -978,7 +978,7 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "expr": "validator_current_epoch",
@@ -1039,7 +1039,7 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "expr": "validator_beacon_node_published_attestation_total",
@@ -1060,7 +1060,7 @@
         "defaults": {
           "color": {
             "fixedColor": "dark-yellow",
-            "mode": "fixed"
+            "mode": "thresholds"
           },
           "mappings": [],
           "thresholds": {
@@ -1071,8 +1071,12 @@
                 "value": null
               },
               {
+                "color": "blue",
+                "value": 0
+              },
+              {
                 "color": "green",
-                "value": ""
+                "value": 1
               }
             ]
           }
@@ -1100,7 +1104,7 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "expr": "validator_beacon_node_published_block_total",
@@ -1165,7 +1169,7 @@
         "showHeader": false,
         "sortBy": []
       },
-      "pluginVersion": "9.0.2",
+      "pluginVersion": "8.5.3",
       "targets": [
         {
           "datasource": {
@@ -1296,7 +1300,7 @@
     "list": []
   },
   "time": {
-    "from": "now-5m",
+    "from": "now-6h",
     "to": "now"
   },
   "timepicker": {
